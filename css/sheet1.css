@@ -1,0 +1,301 @@
+/* @media screen and (min-width:500px) and (max-width:1366px){
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+	position:absolute;
+}
+#nav{
+	height:200px;
+	width:780px;
+	position:absolute;
+}
+#logo{
+	height:250px;
+	width:250px;
+	margin-top:10px;
+	margin-left:90px;
+}
+#banner{
+	height:250px;
+	width:auto;
+	float:right;
+	position:absolute;
+	left:265px;
+}
+
+#home{
+	height:100px;
+	width:240px;
+	position:absolute;
+	left:5px;
+	top:270px;
+}
+#reg{
+	height:100px;
+	width:240px;
+	position:absolute;
+	left:5px;
+	top:320px;
+}
+#result{
+	height:100px;
+	width:240px;
+	position:absolute;
+	left:5px;
+	top:370px;
+}
+#parties{
+	height:100px;
+	width:240px;
+	position:absolute;
+	left:5px;
+	top:420px;
+}
+#admin{
+	height:100px;
+	width:240px;
+	position:absolute;
+	left:5px;
+	top:470px;
+}
+#news{
+	height:100px;
+	width:240px;
+	position:absolute;
+	left:5px;
+	top:520px;
+}
+#contact{
+	height:100px;
+	width:240px;
+	position:absolute;
+	left:5px;
+	top:570px;
+}
+#about{
+	height:100px;
+	width:240px;
+	position:absolute;
+	left:5px;
+	top:570px;
+}
+#help{
+	height:100px;
+	width:240px;
+	position:absolute;
+	left:5px;
+	top:620px;
+}
+.image{
+	height:420px;
+	width:700px;
+	position:absolute;
+	left:320px;
+	top:280px;
+}
+.info{
+	height:40px;
+	width:100%;
+	font-size:30px;
+	text-align:center;
+	color:white;
+	background:rgba(18,114,160,0.5);
+}
+.pic{
+	height:310px;
+    width:100%;
+    font-size:30px;
+    text-align:center;
+	position:relative;
+    color:white;
+}
+.next{
+	height:50px;
+	width:55px;
+	text-align:center;
+	line-height:50px;
+	cursor:pointer;
+	color:white;
+	right:0px;
+	position:absolute;
+	top:120px;
+	z-index:9999;
+	background:rgba(25,25,25,0.6);
+}
+.prev{
+	height:50px;
+	width:55px;
+	color:white ;
+	text-align:center;
+	line-height:50px;
+	cursor:pointer;
+	left:0px;
+	position:absolute;
+	top:120px;
+	z-index:9999;
+	background:rgba(25,25,25,0.6);
+}
+.images{
+	height:100%;
+	overflow:hidden;
+    width:100%;
+	position:absolute;
+}
+.detail{
+	height:70px;
+	width:100%;
+	position:absolute;
+	background:rgba(18,114,160,0.5);
+	bottom:0px;
+}
+.detail1{
+	position:absolute;
+	left:10px;
+	top:5px;
+}
+.mainform{
+	height:250px;
+	width:295px;
+	position:absolute;
+	left:1050px;
+	color:white;
+	background:rgba(18,114,160,0.5);
+	top:280px;
+}
+h1{
+	text-align:center;
+	font-family:arial;
+	margin-top:10px;
+}
+#sign{
+	position:absolute;
+	left:100px;
+}
+#p{
+	position:absolute;
+	left:120px;
+}
+#button{
+	cursor:pointer;
+	position:absolute;
+	height:25px;
+	width:60px;
+	left:100px;
+}
+#button1{
+	cursor:pointer;
+	position:absolute;
+	height:25px;
+	width:60px;
+	left:170px;
+}
+.slider{
+	height:159px;
+	width:295px;
+	position:absolute;
+	left:1050px;
+	overflow:hidden;
+	top:540px;
+}
+
+footer{
+	background:#FFFF;
+	height:130px;
+	width:100%;
+	position:absolute;
+	top:700px;
+}
+.footer{
+	text-align:center;
+	font-family:French Script MT;
+	color:008080;
+	padding:20px;
+	font-size:25px;
+}
+} */
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+#nav img {
+    height: 50px;
+    margin: 0 20px;
+}
+
+/* Content Styles */
+content {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Button Styles */
+#button, #button1 {
+    background-color: #5cb85c; /* Green */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#button:hover, #button1:hover {
+    background-color: #4cae4c; /* Darker green */
+}
+
+/* Image Slider Styles */
+.slider img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    #nav img {
+        height: 40px;
+    }
+
+    #button, #button1 {
+        width: 100%;
+        padding: 15px;
+    }
+}

@@ -1,0 +1,21 @@
+.head{
+	height:50px;
+	width:auto;
+	background:#000;
+	padding-top: 20px;
+	text-align:center;
+}
+.a{
+	height:300px;
+	width:30%;
+}
+.b{
+	height:20px;
+	width:70%;
+	margin-top:0px;
+	left:0px;
+	text-align:justify;
+}
+h1{
+	color: #008080;
+}
